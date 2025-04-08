@@ -435,6 +435,78 @@ header {
     max-width: 223px;
 }
 
+.marketing{
+    padding: 48px 0 95px 0;
+}
+
+.marketing-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marketing-wrapper h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 8px;
+}
+
+.marketing-wrapper h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 16px;
+    max-width: 628px;
+    text-align: center;
+}
+
+.marketing-list{
+    display: flex;
+    gap: 24px;
+}
+
+.marketing-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.item-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 317px;
+    background-color: #F5F7FA;
+    box-shadow: 0px 8px 16px 0px #ABBED166;
+    border-radius: 8px;
+    margin-top: -50px;
+    padding: 16px;
+}
+
+.item-description P{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #717171;
+    text-align: center;
+}
+
+.item-description a{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4CAF4F;
+    gap: 8px;
+    align-items: center;
+}
+
 .demo{
     background-color: #F5F7FA;
 }
